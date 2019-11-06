@@ -21,7 +21,7 @@ def undo_logging(start,end):
 			pass
 		else:
 			transaction,variable,value = logs[i].replace(" ","").split(",")
-			print(transaction,variable,value)
+			# print(transaction,variable,value)
 			if transaction not in committed:
 				disk[variable] = convert_int(value)
 
@@ -106,6 +106,8 @@ if __name__ == "__main__":
 
 	file = args[1]
 
+	# print(file)
+
 	try:
 		read_file(file)
 	except Exception as e:
@@ -118,7 +120,7 @@ if __name__ == "__main__":
 	recovery()
 	print_(disk)
 
-	print(output)
+	# print(output)
 
 	out_file = open("20171114_2.txt","w")
 	out_file.write(output)

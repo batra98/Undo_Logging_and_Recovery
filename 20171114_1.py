@@ -227,6 +227,7 @@ if __name__ == "__main__":
 	except Exception as e:
 		sys.exit("x is not an integer")
 
+	
 	try:
 		read_file(file)
 	except Exception as e:
