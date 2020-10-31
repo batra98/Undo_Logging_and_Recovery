@@ -1,6 +1,3 @@
-#DEVELOPER
-	Gaurav Batra
-
 # Undo Logging and Recovery
 
 ## Introduction
@@ -52,7 +49,7 @@ It contains 2 parts:
 	- The first line of the file will be a list of database element names and their current disk values, space separated, on a single line.
 	- This is followed by a number of log statements which are either STARTs, update logs, COMMITs, Nonquiescent START CKPTs or END CKPTs in successive lines.
 	- The last log entry in the file is the entry just before the crash happened.
-___________________________________________
+#_________________________________________
 
 Feel free to Contribute :heart:
 
