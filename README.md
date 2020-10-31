@@ -1,3 +1,6 @@
+#DEVELOPER
+	Gaurav Batra
+
 # Undo Logging and Recovery
 
 ## Introduction
